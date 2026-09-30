@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
         val botao1 = findViewById<Button>(R.id.btnsoma)
         val botao2 = findViewById<Button>(R.id.btnsubtracao)
         val botao3 = findViewById<Button>(R.id.btnmultiplicacao)
+        val botao4 = findViewById<Button>(R.id.btndivisao)
+        val botao5 = findViewById<Button>(R.id.btnsensor)
 
         botao1.setOnClickListener {
             val intent = Intent (this, Soma::class.java)
@@ -33,6 +35,14 @@ class MainActivity : AppCompatActivity() {
         botao3.setOnClickListener {
             val intent = Intent(this, Multiplicacao::class.java)
             startActivity(intent)
+        }
+        botao4.setOnClickListener {
+            val intent = Intent(this, Divisao::class.java)
+            startActivity(intent)
+        }
+        botao5.setOnClickListener {
+            val Intent = Intent(this, Sensor::class.java)
+            startActivity(Intent)
         }
     }
 }
