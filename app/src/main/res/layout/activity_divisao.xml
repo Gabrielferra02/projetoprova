@@ -48,6 +48,8 @@
         android:layout_width="320dp"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
+        android:backgroundTint="#212121"
+        android:textColor="#FFFFFF"
         android:text="Calcular"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"

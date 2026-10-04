@@ -11,6 +11,7 @@
         android:id="@+id/constraintlayout"
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:background="#212121"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -21,6 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
             android:text="Sensor De Luz"
+            android:textColor="#FFFFFF"
             android:textAlignment="center"
             android:textSize="34sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -32,6 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="248dp"
+            android:textColor="#FFFFFF"
             android:text="Luminosidade atual:"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
