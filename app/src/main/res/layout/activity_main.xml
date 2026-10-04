@@ -49,17 +49,6 @@
         app:layout_constraintTop_toBottomOf="@+id/btnsubtracao" />
 
     <Button
-        android:id="@+id/btnsensor"
-        android:layout_width="320dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="32dp"
-        android:text="Sensor"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btndivisao" />
-
-    <Button
         android:id="@+id/btndivisao"
         android:layout_width="320dp"
         android:layout_height="48dp"
@@ -67,4 +56,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnmultiplicacao" />
+
+    <Button
+        android:id="@+id/sensor"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:text="Sensor acelerômetro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btndivisao" />
+
+    <Button
+        android:id="@+id/sensor1"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:text="Sensor luz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sensor" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,17 +5,50 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Sensor">
+    tools:context=".sensor">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textoacelerometro"
         android:layout_width="360dp"
         android:layout_height="48dp"
-        android:layout_marginTop="32dp"
-        android:text="Sensor"
+        android:text="Acelerômetro"
         android:textAlignment="center"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAcelerometroX"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="200dp"
+        android:text="X:"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoacelerometro" />
+
+    <TextView
+        android:id="@+id/textViewAcelerometroY"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:text="Y:"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAcelerometroX" />
+
+    <TextView
+        android:id="@+id/textViewAcelerometroZ"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:text="Z:"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAcelerometroY" />
 </androidx.constraintlayout.widget.ConstraintLayout>
